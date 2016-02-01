@@ -499,7 +499,7 @@ footer .twitter-share-button {
   -moz-background-clip: padding-box;
   background-clip: padding-box;
   background: transparent url(../../images/compass.png) 0 0 no-repeat;
-  background-size: 224px 224px;
+  background-size: 188px 188px;
   position: absolute;
   display: block;
   height: 160px;
@@ -580,8 +580,13 @@ footer .twitter-share-button {
   box-sizing: border-box;
   display: block;
   float: left;
-  width: 50%;
+  width: 100%;
 }
+
+.links li {
+  width: 100%;
+}
+
 .about .panel .links li a {
   -webkit-border-radius: 0 0 0 5px;
   -moz-border-radius: 0 0 0 5px;
