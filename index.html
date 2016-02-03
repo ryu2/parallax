@@ -149,10 +149,7 @@ Notes:
 			</div>
 		</section>
 		<button id="toggle" class="toggle i">
-			<div class="cross">
-				<div class="x"></div>
-				<div class="y"></div>
-			</div>
+			  Details &amp; RSVP
 		</button>
 		</div>
 		<footer>
@@ -210,11 +207,13 @@ Notes:
 	function showDetails() {
 		$about.removeClass('hide');
 		$toggle.removeClass('i');
+		$toggle.text('X');
 	}
 
 	function hideDetails() {
 		$about.addClass('hide');
 		$toggle.addClass('i');
+		$toggle.text('Details & RSVP');
 	}
 
 	// Listen for toggle click event.
@@ -240,11 +239,6 @@ Notes:
 			});
 		}
 	},1000);
-
-
-	setTimeout(function() {
-		showDetails();
-	}, 5000);
 
 	</script>
 

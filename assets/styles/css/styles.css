@@ -644,12 +644,21 @@ footer .twitter-share-button {
   position: absolute;
   bottom: 11.6%;
   left: 50%;
+  width: 56px;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+  -webkit-transition: all 1.8s cubic-bezier(0.77, 0, 0.175, 1);
+  -moz-transition: all 1.8s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 1.8s cubic-bezier(0.77, 0, 0.175, 1);
 }
-.toggle.i .cross {
-  -webkit-transform: rotateZ(0deg);
-  -moz-transform: rotateZ(0deg);
-  transform: rotateZ(0deg);
+
+
+.toggle.i {
+  left: 46.5%;
+  width: 140px;
 }
+
 .toggle.i .cross .x {
   margin-left: -2px;
   width: 4px;
@@ -661,9 +670,6 @@ footer .twitter-share-button {
 }
 
 .cross {
-  -webkit-transform: rotateZ(45deg);
-  -moz-transform: rotateZ(45deg);
-  transform: rotateZ(45deg);
   position: absolute;
   left: 50%;
   top: 50%;
@@ -1425,14 +1431,14 @@ footer .twitter-share-button {
   }
 
   button {
-    -webkit-border-radius: 28px;
-    -moz-border-radius: 28px;
-    border-radius: 28px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
     -webkit-background-clip: padding-box;
     -moz-background-clip: padding-box;
     background-clip: padding-box;
     height: 56px;
-    width: 56px;
+    width: 140px;
   }
 
   footer {
@@ -2228,7 +2234,7 @@ a, button {
   transition: color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1), background-color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-.cross, .x, .y {
+.cross, .x, .y, .i {
   -webkit-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   -moz-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
