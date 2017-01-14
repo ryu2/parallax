@@ -286,7 +286,7 @@ p {
 
 em {
   font-style: normal;
-  color: #d92400;
+  color: #0024d9;
 }
 
 img {
@@ -832,9 +832,9 @@ footer .twitter-share-button {
   background-size: 128px 224px;
   height: 224px;
   width: 128px;
-  background-image: url(../../images/lighthouse.png);
+  background-image: url(../../images/chihiro.png);
   background-repeat: no-repeat;
-  bottom: 64px;
+  bottom: 640px;
   position: absolute;
   right: 20%;
 }
@@ -2521,57 +2521,57 @@ a, button {
 
 @-webkit-keyframes lighthouse {
   0% {
-    -webkit-transform: translate3d(15%,0,0) rotateZ(10deg);
-    -moz-transform: translate3d(15%,0,0) rotateZ(10deg);
-    transform: translate3d(15%,0,0) rotateZ(10deg);
+    -webkit-transform: translate3d(2%,0,0) rotateZ(1deg);
+    -moz-transform: translate3d(2%,0,0) rotateZ(1deg);
+    transform: translate3d(2%,0,0) rotateZ(1deg);
   }
 
   100% {
-    -webkit-transform: translate3d(-15%,0,0) rotateZ(-10deg);
-    -moz-transform: translate3d(-15%,0,0) rotateZ(-10deg);
-    transform: translate3d(-15%,0,0) rotateZ(-10deg);
+    -webkit-transform: translate3d(-2%,0,0) rotateZ(-1deg);
+    -moz-transform: translate3d(-2%,0,0) rotateZ(-1deg);
+    transform: translate3d(-2%,0,0) rotateZ(-1deg);
   }
 }
 
 @-moz-keyframes lighthouse {
   0% {
-    -webkit-transform: translate3d(15%,0,0) rotateZ(10deg);
-    -moz-transform: translate3d(15%,0,0) rotateZ(10deg);
-    transform: translate3d(15%,0,0) rotateZ(10deg);
+    -webkit-transform: translate3d(2%,0,0) rotateZ(1deg);
+    -moz-transform: translate3d(2%,0,0) rotateZ(1deg);
+    transform: translate3d(2%,0,0) rotateZ(1deg);
   }
 
   100% {
-    -webkit-transform: translate3d(-15%,0,0) rotateZ(-10deg);
-    -moz-transform: translate3d(-15%,0,0) rotateZ(-10deg);
-    transform: translate3d(-15%,0,0) rotateZ(-10deg);
+    -webkit-transform: translate3d(-2%,0,0) rotateZ(-1deg);
+    -moz-transform: translate3d(-2%,0,0) rotateZ(-1deg);
+    transform: translate3d(-2%,0,0) rotateZ(-1deg);
   }
 }
 
 @-ms-keyframes lighthouse {
   0% {
-    -webkit-transform: translate3d(15%,0,0) rotateZ(10deg);
-    -moz-transform: translate3d(15%,0,0) rotateZ(10deg);
-    transform: translate3d(15%,0,0) rotateZ(10deg);
+    -webkit-transform: translate3d(2%,0,0) rotateZ(1deg);
+    -moz-transform: translate3d(2%,0,0) rotateZ(1deg);
+    transform: translate3d(2%,0,0) rotateZ(1deg);
   }
 
   100% {
-    -webkit-transform: translate3d(-15%,0,0) rotateZ(-10deg);
-    -moz-transform: translate3d(-15%,0,0) rotateZ(-10deg);
-    transform: translate3d(-15%,0,0) rotateZ(-10deg);
+    -webkit-transform: translate3d(-2%,0,0) rotateZ(-1deg);
+    -moz-transform: translate3d(-2%,0,0) rotateZ(-1deg);
+    transform: translate3d(-2%,0,0) rotateZ(-1deg);
   }
 }
 
 @keyframes lighthouse {
   0% {
-    -webkit-transform: translate3d(15%,0,0) rotateZ(10deg);
-    -moz-transform: translate3d(15%,0,0) rotateZ(10deg);
-    transform: translate3d(15%,0,0) rotateZ(10deg);
+    -webkit-transform: translate3d(2%,0,0) rotateZ(1deg);
+    -moz-transform: translate3d(2%,0,0) rotateZ(1deg);
+    transform: translate3d(2%,0,0) rotateZ(1deg);
   }
 
   100% {
-    -webkit-transform: translate3d(-15%,0,0) rotateZ(-10deg);
-    -moz-transform: translate3d(-15%,0,0) rotateZ(-10deg);
-    transform: translate3d(-15%,0,0) rotateZ(-10deg);
+    -webkit-transform: translate3d(-2%,0,0) rotateZ(-1deg);
+    -moz-transform: translate3d(-2%,0,0) rotateZ(-1deg);
+    transform: translate3d(-2%,0,0) rotateZ(-1deg);
   }
 }
 
